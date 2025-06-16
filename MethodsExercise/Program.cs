@@ -5,11 +5,11 @@
         {
             Console.WriteLine("Whoa their traveler, what is your name?");
             string name = Console.ReadLine();
-            Console.WriteLine($"So you're a fantasy adventurer huh, what class are you?");
+            Console.WriteLine("So you're a fantasy adventurer huh, what class are you?");
             string fantasyClass = Console.ReadLine();
-            Console.WriteLine($"Tell me where did your adventure begin?");
+            Console.WriteLine("Tell me where did your adventure begin?");
             string startingPoint = Console.ReadLine();
-            Console.WriteLine($"Wasn't that place was overrun with Bandits; how did you fight them off?");
+            Console.WriteLine("Wasn't that place was overrun with Bandits; how did you fight them off?");
             string weaponChoice = Console.ReadLine();
             Console.WriteLine($"I can't wait to hear The Bard's song of {name}, the great {fantasyClass}, who fought off the Bandits of {startingPoint} with their {weaponChoice}. It shall be sung for ages!!!");
         }
