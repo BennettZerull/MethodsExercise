@@ -1,7 +1,7 @@
 ﻿namespace MethodsExercise
 {
     public class Program
-    {public static void fantasystory()
+    {public static void FantasyStory()
         {
             Console.WriteLine("Whoa their traveler, what is your name?");
             string name = Console.ReadLine();
@@ -36,17 +36,17 @@
 
         public static int Sum(params int[] numbers)
         {
-            int Sum = 0;
+            int sum = 0;
             foreach (int number in numbers)
             {
-                Sum += number;
+                sum += number;
             }
-            return Sum;
+            return sum;
         }
 
         static void Main(string[] args)
         {
-            fantasystory();
+            FantasyStory();
             //Console.WriteLine(Add(5, 3));
             //Console.WriteLine(Subtract(10, 7));
             //Console.WriteLine(Multiply(8, 6));
